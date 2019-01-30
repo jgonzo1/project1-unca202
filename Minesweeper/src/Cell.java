@@ -1,6 +1,6 @@
 
 public class Cell {
-
+//
 	
 	private char cellvalue;
 	private char concealedcellvalue;

@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Minesweeper {
-
+//
 	public static void main(String[] args) {
 
 		Scanner scan = new Scanner(System.in);
