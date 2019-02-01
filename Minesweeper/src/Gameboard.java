@@ -19,40 +19,28 @@ public class Gameboard {
 	public void run() {
 
 		for (int i = 0; i < 10; i++ ) {
-
 			System.out.println("");
-
 			for (int j = 0; j < 10; j++ ) {
-
 				board[i][j] = new Cell();
-
+				
 				//Sets borders
 				if (i == 0 || j == 0 || i == 9 || j == 9) {
 					board[i][j].setBorderState();
 				}
-
 				System.out.print(board[i][j] + " ");
-
 			}
-
 		}
-
 		System.out.println("");
 
 		//Sets 10 mines randomly
 		for (int i = 0; i < 10;) {
-
 			int rand1 = generator.nextInt(8) + 1;
 			int rand2 = generator.nextInt(8) + 1;
-
 			if (board[rand1][rand2].getCellvalue() != 'M') {
 				board[rand1][rand2].setMineState();
 				i++ ;
 			}
-
 		}
-
-
 	}
 	
 	/**

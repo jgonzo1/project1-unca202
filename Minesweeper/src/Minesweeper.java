@@ -133,7 +133,7 @@ public class Minesweeper {
 			} while (!(input2.equalsIgnoreCase("yes") || input2.equalsIgnoreCase("no")));
 
 		}
-
+		
 		game1.peek();
 		if (win == 63) {
 			System.out.println("Congratulations you won!");
