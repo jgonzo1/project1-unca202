@@ -7,7 +7,7 @@ import java.util.Scanner;
  * @version February 1, 2019
  */
 
-public class Minesweeper {
+class Minesweeper {
 
 
 	public static void main(String[] args) {
@@ -135,7 +135,7 @@ public class Minesweeper {
 		}
 		
 		game1.peek();
-		if (win == 63) {
+		if (win == 64) {
 			System.out.println("Congratulations you won!");
 		}
 

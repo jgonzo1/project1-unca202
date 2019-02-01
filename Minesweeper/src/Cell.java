@@ -5,7 +5,7 @@
  * @version February 1, 2019
  */
 
-public class Cell {
+class Cell {
 
 	
 	private char cellvalue;

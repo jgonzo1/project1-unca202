@@ -7,7 +7,7 @@ import java.util.Random;
  */
 
 
-public class Gameboard {
+class Gameboard {
 
 	private Cell [][] board = new Cell[10][10];
 	private Random generator = new Random();
